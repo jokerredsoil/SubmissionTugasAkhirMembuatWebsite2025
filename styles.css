@@ -7,10 +7,21 @@ body {
     min-height: 100vh;
    
 }
+
 a{
     text-decoration:none;
-    font-size: 18px;
+    font-size: 100%;
+    margin:10px 10px;
+    color: #333;
 
+
+}
+a:hover{
+    background-color: #33333315;
+    color: #070730;
+    font-size: 120%;
+    border-radius: 5px;
+  
 }
 
 header, footer {
@@ -20,18 +31,33 @@ header, footer {
     padding: .5em;
 }
 .nav-container{
+    position: fixed;
+    width: 100%;
+
     display: flex;
     flex:1;
     background-color: beige;
     border-radius: 2px;
-    gap: 20px;
+
+
    
 }
-.nav-item > a{
+.nav-item, .nav-sosmed{
+  flex:70%;
+  display: flex;
   
+ 
+  justify-content: flex-start;
+  margin-right: 10%;
+  margin: 0 10px;
+  gap: 10px;
   
 }
 .nav-sosmed{
+   flex:30%;
+
+   justify-content: flex-end;
+ 
    
 }
 
@@ -50,7 +76,7 @@ article {
     padding: 20px;
     border-radius: 5px;
 }
-aside {
+aside,table {
     flex: 1;
     background: #e4e4e4;
     padding: 20px;
