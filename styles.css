@@ -6,6 +6,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+<<<<<<< HEAD
 
 a {
     text-decoration: none;
@@ -13,6 +14,23 @@ a {
     margin: 0 5px;
     display: inline-block; 
     transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+=======
+
+a{
+    text-decoration:none;
+    font-size: 100%;
+    margin:10px 10px;
+    color: #333;
+
+
+}
+a:hover{
+    background-color: #33333315;
+    color: #070730;
+    font-size: 120%;
+    border-radius: 5px;
+  
+>>>>>>> bcfe767a0d88d4295b022a9bd59debaafce4ce16
 }
 
 header, footer {
@@ -21,15 +39,46 @@ header, footer {
     text-align: center;
     padding: .5em;
 }
+<<<<<<< HEAD
 
 .nav-container {
+=======
+.nav-container{
+    position: fixed;
+    width: 100%;
+
+>>>>>>> bcfe767a0d88d4295b022a9bd59debaafce4ce16
     display: flex;
     flex: 1;
     background-color: beige;
     border-radius: 2px;
+<<<<<<< HEAD
     gap: 20px;
     padding: 10px; 
     align-items: center;
+=======
+
+
+   
+}
+.nav-item, .nav-sosmed{
+  flex:70%;
+  display: flex;
+  
+ 
+  justify-content: flex-start;
+  margin-right: 10%;
+  margin: 0 10px;
+  gap: 10px;
+  
+}
+.nav-sosmed{
+   flex:30%;
+
+   justify-content: flex-end;
+ 
+   
+>>>>>>> bcfe767a0d88d4295b022a9bd59debaafce4ce16
 }
 
 .nav-item {
@@ -69,9 +118,14 @@ article {
     padding: 20px;
     border-radius: 5px;
 }
+<<<<<<< HEAD
 
 aside {
     flex: .5 ;
+=======
+aside,table {
+    flex: 1;
+>>>>>>> bcfe767a0d88d4295b022a9bd59debaafce4ce16
     background: #e4e4e4;
     padding: 20px;
     border-radius: 5px;
