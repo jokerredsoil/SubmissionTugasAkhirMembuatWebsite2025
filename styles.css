@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+.logo img{
+    width: 80px;
+}
+
 /* Header */
 header {
     background-color: #333;
